@@ -1,0 +1,31 @@
+.group {
+    width: 100%; /* Full width for better responsiveness */
+    max-width: 300px; /* Limits the maximum width of the modal */
+    margin: auto;
+    padding: 7px; /* Reduced padding for a more compact look */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.groupx {
+    width: 100%; /* Full width for better responsiveness */
+    max-width: 370px; /* Limits the maximum width of the modal */
+    margin: auto;
+    padding: 7px; /* Reduced padding for a more compact look */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+select, input {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+

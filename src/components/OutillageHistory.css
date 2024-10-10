@@ -1,0 +1,20 @@
+/* src/components/OutillageHistoryList.css */
+
+/* Modal Styles */
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.history-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    overflow: auto; /* Ensures scroll if content overflows */
+}
+

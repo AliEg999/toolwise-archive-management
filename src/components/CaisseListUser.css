@@ -1,0 +1,36 @@
+/* src/components/CaisseListUser.css */
+
+.table-spacing {
+    margin-bottom: 20px; /* Adjust the value as needed for spacing between tables */
+}
+
+.pagination {
+    margin: 8px 0; /* Margin for pagination controls */
+}
+
+.pagination-spacing {
+    margin-bottom: 59px; /* Space between pagination and next table */
+}
+
+.error-message {
+    color: red; /* Style for error messages */
+}
+
+.caisse-count {
+    font-weight: bold; /* Style for caisse count */
+    color: brown;
+}
+
+
+
+
+
+
+
+.button {
+    font-size: 11px; /* Decrease the text size */
+    padding: 5px 15px; /* Decrease the button size */
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}

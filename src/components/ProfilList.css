@@ -1,0 +1,10 @@
+.profil-count {
+    color: #ff0000; 
+
+}
+.BO {
+    display: inline-block;  /* Ensures the button is inline */
+    white-space: nowrap;    /* Prevents text from wrapping */
+
+  
+}

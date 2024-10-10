@@ -1,0 +1,46 @@
+.add-outillage-modal {
+    background: white;
+    padding: 15px; /* Reduced padding */
+    border-radius: 8px;
+    max-width: 400px; /* Reduced width */
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.add-outillage-modal h2 {
+    font-size: 16px; /* Adjust font size if needed */
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin bottom */
+}
+
+.add-outillage-modal form {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.add-outillage-modal label {
+    margin: 5px 0; /* Reduced margin */
+}
+
+.add-outillage-modal input,
+.add-outillage-modal select {
+    padding: 4px; /* Reduced padding */
+    font-size: 12px;
+    margin-top: 3px; /* Reduced margin top */
+}
+
+.add-outillage-modal .error-message {
+    color: red;
+    text-align: center;
+}
+
+.add-outillage-modal button {
+    margin: 8px 0; /* Reduced margin */
+    padding: 6px; /* Reduced padding */
+    font-size: 12px;
+    cursor: pointer;
+}

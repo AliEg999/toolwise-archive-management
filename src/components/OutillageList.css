@@ -1,0 +1,23 @@
+/* src/components/OutillageList.css */
+
+.table-container {
+    width: 100%; /* Ensures container spans the full width of the viewport */
+    overflow-x: auto; /* Enables horizontal scrolling if the table is too wide */
+    display: flex;
+    justify-content: center; /* Centers the table horizontally */
+    margin: 0 auto; /* Centers the container itself within its parent */
+}
+
+.table {
+    width: 100%; /* Set to 100% so it can expand as needed */
+    max-width: 150%; /* Maximum width of 150% to ensure it doesn’t go beyond 150% */
+    border-collapse: collapse;
+    height: auto; /* Adjust to fit more items */
+}
+
+.add-button {
+background-color: #c72f2f;
+}
+.add-button:hover {
+    background-color: #caa9a9;
+    }

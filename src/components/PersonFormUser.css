@@ -1,0 +1,54 @@
+/* PersonFormUser.css */
+
+.person-form-container {
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Constrain the width of the form */
+    margin: 0 auto; /* Center the form */
+    position: relative; /* Relative positioning for form elements */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%; /* Make the input take up full width */
+    padding: 10px; /* Add padding for better usability */
+    border: 1px solid #ccc; /* Light border around the input */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding does not increase width */
+}
+
+.error-message {
+    color: red; /* Highlight error message in red */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #CF111A; /* Blue submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Full-width button */
+}
+
+.submit:hover {
+    background-color: #da8488; /* Darker blue on hover */
+}
+

@@ -1,0 +1,15 @@
+.modal {
+    background: white;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px;
+    max-width: 500px; /* Adjust width as needed */
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added shadow for better visibility */
+}
+
+
+

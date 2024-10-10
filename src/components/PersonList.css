@@ -1,0 +1,133 @@
+.person-list-container {
+    margin: 2px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ffcdcd;
+    text-align: left;
+}
+
+th {
+    background-color: #CF111A;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe7e7;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #CF111A;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dab3b5;
+}
+
+.actions-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions-container button {
+    margin: 0 5px;
+}
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+.person-list-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.pagination button {
+    margin: 0 10px;
+    padding: 7px 12px;
+    background-color: #CF111A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.pagination button:hover {
+    background-color: #e9c1c1;
+}
+.pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.pagination li a {
+    padding: 8px 12px;
+    border: 1px solid #e9c1c1;
+    color: #CF111A;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination li a:hover {
+    background-color: #ddd;
+}
+
+.pagination .active a {
+    background-color: #CF111A;
+    color: white;
+    border: 1px solid #CF111A;
+}
+.person-count {
+    color: red;
+}
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+/* CaisseModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure modal is above other content */
+}
+
+.modal {
+    background: #fff; /* White background for the modal */
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 500px; /* Limit modal width */
+    width: 100%; /* Responsive width */
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.close-button {
+    background: #d33; /* Red background for close button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 8px 12px; /* Button padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 11px; /* Smaller font size */
+}
+
+.close-button:hover {
+    background: #dab3b5; /* Lighter red on hover */
+}
+
+h2 {
+    margin-top: 0; /* Remove margin from top */
+}
+
+.submit-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.caisse-form-container {
+    display: flex;
+    flex-direction: column; /* Stack form fields vertically */
+    gap: 15px; /* Space between fields */
+}
+
+.caisse-form-container input {
+    padding: 10px; /* Space inside form fields */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    font-size: 12px; /* Font size */
+    width: 100%; /* Full width */
+}
+
+.caisse-form-container input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+/* Add this to your CSS file */
+.add-button {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin-bottom: 20px; /* Space below the button */
+}
+
+.add-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

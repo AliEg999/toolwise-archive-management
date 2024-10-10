@@ -1,0 +1,112 @@
+/* AddEtalonnageModal.css */
+.forma {
+    max-width: 500px; /* Limits the maximum width of the form */
+    margin: 0 auto; /* Centers the form horizontally */
+    padding: 20px; /* Reduced padding inside the form */
+    border-radius: 8px; /* Rounds the corners of the form */
+    background: #f9f9f9; /* Light background color for better readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the form */
+    font-weight: bold; /* Make the text bold */
+
+}
+
+.add-etalonnage-modal {
+    width: 100%; /* Full width for better responsiveness */
+    
+    max-width: 400px; /* Limits the maximum width of the modal */
+    margin: auto;
+    padding: 17px; /* Reduced padding for a more compact look */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.add-etalonnage-modal form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.add-etalonnage-modal label {
+    margin-bottom: 5px; /* Reduced space below labels */
+    font-size: 11px; /* Smaller font size for labels */
+    color: #3b3939;
+    height: 0px;
+}
+.form-group {
+    margin-bottom: 5px; /* Reduced space below labels */
+    font-size: 11px; /* Smaller font size for labels */
+    color: #3b3939;
+    height: 47px;
+    padding: px px; /* Reduced size for the close button */
+
+}
+
+
+
+
+
+
+.for-group {
+    margin-top: 199px; /* Reduced space below labels */
+    font-size: 11px; /* Smaller font size for labels */
+    color: #3b3939;
+    height: 28px;
+    padding: 8px 12px; /* Reduced size for the close button */
+
+}
+
+.add-etalonnage-modal input[type="text"],
+.add-etalonnage-modal input[type="date"],
+.add-etalonnage-modal select {
+    padding: 6px; /* Reduced padding inside input fields */
+    margin-top: 3px; /* Reduced space above input fields */
+    margin-bottom: 10px; /* Reduced space below input fields */
+    border-radius: 4px; /* Rounds the corners of input fields */
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-etalonnage-modal input[type="text"]:focus,
+.add-etalonnage-modal input[type="date"]:focus,
+.add-etalonnage-modal select:focus {
+    border-color: #007bff; /* Adds a focus color */
+}
+
+.add-etalonnage-modal .error-message {
+    color: red;
+    font-size: 12px; /* Smaller font size for error messages */
+    margin-bottom: 10px; /* Reduced space below error messages */
+    text-align: center;
+}
+
+.add-etalonnage-modal button {
+    padding: 8px; /* Reduced padding around button text */
+    border: none;
+    border-radius: 4px; /* Rounds the corners of the button */
+    font-size: 14px; /* Smaller font size for button text */
+    cursor: pointer;
+    margin-top: 5px; /* Reduced space above buttons */
+}
+
+.add-etalonnage-modal button[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.add-etalonnage-modal button[type="button"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.add-etalonnage-modal button[type="submit"]:hover,
+.add-etalonnage-modal button[type="button"]:hover {
+    opacity: 0.9;
+}
+
+.add-etalonnage-modal button[type="submit"]:active,
+.add-etalonnage-modal button[type="button"]:active {
+    transform: scale(0.98);
+}

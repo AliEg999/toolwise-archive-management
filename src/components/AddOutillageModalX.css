@@ -1,0 +1,88 @@
+/* src/components/AddOutillageModalX.css */
+
+/* Overlay styling for the modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark background for overlay */
+    z-index: 100; /* Base z-index for modal overlay */
+}
+
+/* Base modal styling */
+.add-outillage-modal {
+    position: relative;
+    top: 50px; /* Adjust based on your design */
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    z-index: 101; /* Higher z-index for AddOutillageModal */
+}
+
+/* Header styling */
+.add-outillage-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.add-outillage-modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.add-outillage-modal label {
+    margin: 10px 0;
+}
+
+/* Input and select styling */
+.add-outillage-modal input,
+.add-outillage-modal select {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Error message styling */
+.add-outillage-modal .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.add-outillage-modal button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #c72f2f;
+    color: white;
+}
+
+/* Disabled button styling */
+.add-outillage-modal button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+/* Close button styling */
+.add-outillage-modal .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

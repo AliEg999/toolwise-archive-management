@@ -1,0 +1,72 @@
+/* src/components/AddDispositionModal.css */
+
+.add-disposition-modal {
+    content: ' ';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
+    overflow: auto;
+}
+
+.add-disposition-modal h2 {
+    margin-top: 0;
+}
+
+.add-disposition-modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-disposition-modal label {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.add-disposition-modal input[type="text"],
+.add-disposition-modal input[type="date"],
+.add-disposition-modal select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-disposition-modal button {
+    background-color: #c73239;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-disposition-modal button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.add-disposition-modal button:nth-of-type(2) {
+    background-color: #6c757d;
+}
+
+.add-disposition-modal button:nth-of-type(2):hover {
+    background-color: #5a6268;
+}
+
+.add-disposition-modal .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+.add-disposition-modal button:hover {
+    background-color: #b30000;
+}

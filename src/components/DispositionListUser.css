@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+}
+
+/* Style for the button */
+.LJA {
+    position: absolute;
+    top: 218px;   /* Adjust as needed */
+    right: 278px; /* Adjust as needed */
+  
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    
+  
+}
+.LJAZ {
+    position: absolute;
+    top: 239px;   /* Adjust as needed */
+    right: 278px; /* Adjust as needed */
+  
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    
+  
+}
