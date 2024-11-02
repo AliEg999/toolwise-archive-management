@@ -1,74 +1,71 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ToolWise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ToolWise is a web application designed for efficient tool management within organizations. It allows users to track, manage, and allocate tools seamlessly, ensuring optimal usage and maintenance.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Secure login system for users to manage their profiles and access features.
+- **Tool Inventory Management**: Easily add, update, and delete tools in the inventory.
+- **Tool Allocation**: Assign tools to specific users or departments, with options to track availability.
+- **Calibration Management**: Manage calibration schedules for tools, ensuring compliance with safety and operational standards.
+- **Dynamic Filtering**: Filter tools and caisses based on various criteria, including type and service associations.
+- **Search Functionality**: Robust search capabilities to quickly find tools or caisses by various attributes.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js
+- **Backend**: Spring Boot
+- **Database**: MySQL
+- **Build Tool**: Maven
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Java 17 or higher
+- Apache Maven 3.9.6
+- MySQL database
 
-### `npm run build`
+### Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd ToolWise
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Backend Setup**:
+   - Navigate to the backend directory.
+   - Update your database configuration in `application.properties`.
+   - Build and run the Spring Boot application:
+     ```bash
+     mvn spring-boot:run
+     ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Frontend Setup**:
+   - Navigate to the frontend directory.
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the React application:
+     ```bash
+     npm start
+     ```
 
-### `npm run eject`
+4. **Access the Application**:
+   Open your browser and go to `http://localhost:3000` to access the ToolWise application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Sign up or log in to your account.
+- Navigate through the dashboard to manage tools, view inventory, and allocate resources.
+- Utilize the search and filter features to find specific tools or caisses quickly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# toolwise-archive-management
->>>>>>> bd394cffe59f6477705a754af85e4b0197f94e06
+This project is licensed under the MIT License.
