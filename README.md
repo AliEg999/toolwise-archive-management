@@ -1,6 +1,6 @@
 # ToolWise
 
-ToolWise is a web application designed for efficient tool management within organizations. It allows users to track, manage, and allocate tools seamlessly, ensuring optimal usage and maintenance.
+TOOLWISE is a web application designed for efficient tool management within organizations. It allows users to track, manage, and allocate tools seamlessly, ensuring optimal usage and maintenance.
 
 ![toolwise](https://github.com/user-attachments/assets/8f06335c-693d-45a5-8673-8428c506dc91)
 
