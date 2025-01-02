@@ -16,7 +16,7 @@ TOOLWISE is a web application designed for efficient tool management within orga
 ## Tech Stack
 
 - **Frontend**: React.js
-- **Backend**: Spring Boot
+- **Backend**: Spring Boot,
 - **Database**: MySQL
 - **Build Tool**: Maven//
 
