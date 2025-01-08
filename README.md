@@ -60,7 +60,7 @@ TOOLWISE is a web application designed for efficient tool management within orga
 
 ## Usage
 
-- Sign up or log in to your account.
+- Sign up or log in to your accounts.
 - Navigate through the dashboard to manage tools, view inventory, and allocate resources.
 - Utilize the search and filter features to find specific tools or caisses quickly.
 
